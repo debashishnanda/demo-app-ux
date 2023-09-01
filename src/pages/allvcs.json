@@ -1,0 +1,178 @@
+[
+  {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://www.schema.org"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "ContactCredential",
+      "NameCredential"
+    ],
+    "issuer": "https://example.com/issuer",
+    "issuanceDate": "2023-05-26T08:00:00Z",
+    "expirationDate": "2024-05-26T08:00:00Z",
+    "credentialSubject": {
+      "id": "did:example:123",
+      "givenName": "John",
+      "familyName": "Doe"
+    }
+  }
+  ,
+  {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://www.schema.org"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "ContactCredential",
+      "MobileNumberCredential"
+    ],
+    "issuer": "https://example.com/issuer",
+    "issuanceDate": "2023-05-26T08:00:00Z",
+    "expirationDate": "2024-05-26T08:00:00Z",
+    "credentialSubject": {
+      "id": "did:example:123",
+      "countryCode": "+1",
+      "areaCode": "510",
+      "mobileNumber": "320-0168",
+      "msisdn":"+15103200168"
+    }
+  }
+  ,
+  {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://www.schema.org"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "ContactCredential",
+      "HomePhoneNumberCredential"
+    ],
+    "issuer": "https://example.com/issuer",
+    "issuanceDate": "2023-05-26T08:00:00Z",
+    "expirationDate": "2024-05-26T08:00:00Z",
+    "credentialSubject": {
+      "id": "did:example:123",
+      "countryCode": "+1",
+      "areaCode": "341",
+      "phoneNumber": "348-3058",
+      "msisdn":"+15103200168"
+    }
+  }
+  ,
+  {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://www.schema.org"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "ContactCredential",
+      "EmailCredential"
+    ],
+    "issuer": "https://example.com/issuer",
+    "issuanceDate": "2023-05-26T08:00:00Z",
+    "expirationDate": "2024-05-26T08:00:00Z",
+    "credentialSubject": {
+      "id": "did:example:123",
+      "countryCode": "+1",
+      "areaCode": "510",
+      "mobileNumber": "320-0168",
+      "msisdn":"+15103200168"
+    }
+  }
+  ,
+  {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://www.schema.org"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "DateOfBirthCredential"
+    ],
+    "issuer": "https://example.com/issuer",
+    "issuanceDate": "2023-05-27T08:00:00Z",
+    "expirationDate": "2024-05-27T08:00:00Z",
+    "credentialSubject": {
+      "id": "did:example:123",
+      "completeDateOfBirth": "1990-03-15",
+      "yearOfBirth": 1990,
+      "monthOfBirth": 3,
+      "dayOfBirth": 15
+    }
+  }
+  ,
+  {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://www.schema.org"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "PostalAddressCredential"
+    ],
+    "issuer": "https://example.com/issuer",
+    "issuanceDate": "2023-05-27T08:00:00Z",
+    "expirationDate": "2024-05-27T08:00:00Z",
+    "credentialSubject": {
+      "id": "did:example:123",
+      "streetAddress": "890 Seale Ave",
+      "aptSuiteNumber":"Standalone",
+      "addressLocality": "Palo Alto",
+      "addressRegion": "CA",
+      "postalCode": "94303",
+      "addressCountry": "US"
+    }
+  }
+  ,
+  {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://www.schema.org"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "IdentityCredential",
+      "SSNCredential"
+    ],
+    "issuer": "https://example.com/issuer",
+    "issuanceDate": "2023-05-28T08:00:00Z",
+    "expirationDate": "2024-05-28T08:00:00Z",
+    "credentialSubject": {
+      "id": "did:example:123",
+      "socialSecurityNumber": "123-45-6789",
+      "last4digits":"6789"
+    }
+  }
+  ,
+  {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://schema.org"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "EmploymentIncomeCredential"
+    ],
+    "issuer": "https://example.com/issuer",
+    "issuanceDate": "2023-05-28T08:00:00Z",
+    "expirationDate": "2024-05-28T08:00:00Z",
+    "credentialSubject": {
+      "id": "did:example:123",
+      "employmentDetails": {
+        "employerName": "Credid, Inc.",
+        "jobTitle": "Software Engineer",
+        "employmentStartDate": "08-01-2022",
+        "employmentEndDate": null
+      },
+      "incomeDetails": {
+        "grossAnnualIncome": "$85,000",
+        "netMonthlyIncome": "$5,000"
+      }
+    }
+  }
+]
